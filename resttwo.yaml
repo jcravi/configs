@@ -1,6 +1,9 @@
 greeting:
   value: Yaml
 
+server:
+  port: ${port:0}
+
 spring:
   application:
     name: resttwo
