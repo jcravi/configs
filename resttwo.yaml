@@ -1,0 +1,16 @@
+server:
+  port: 0
+
+greeting:
+  value: Yaml
+
+spring:
+  application:
+    name: resttwo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
